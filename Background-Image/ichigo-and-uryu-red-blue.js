@@ -8,6 +8,7 @@ for (var i = 0; i < e.length; i++) {
 }
 
 document.body.style.backgroundImage = "url('https://www.dexerto.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://editors.dexerto.com/wp-content/uploads/2023/05/29/bleach-tybw-part-2-key-visual.jpeg')";
+// object.style.backgroundSize = "auto|length|cover|contain|intial|inherit"
 document.body.style.backgroundSize = "cover"; // Adjust the background size as needed
 
 
