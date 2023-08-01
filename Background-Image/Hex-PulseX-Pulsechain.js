@@ -1,8 +1,9 @@
 var e = document.body.getElementsByTagName("*");
 
 for (var i = 0; i < e.length; i++) {
-  e[i].style.color = "mediumvioletred";
+  e[i].style.color = "indianred";
   e[i].style.borderColor = "blueviolet";
+  // e[i].style.borderBlockColor = "lightblue";
   e[i].style.borderBlockColor = "mediumspringgreen";
   // e[i].style.outlineColor = "green";
   // e[i].style.scrollbarColor = "green";
@@ -20,9 +21,10 @@ document.body.style.backgroundSize = "cover"; // Adjust the background size as n
 
 
 document.body.addEventListener('mouseover', function(event) {
-    event.target.style.color = "deeppink";
+    event.target.style.color = "darkturquoise";
+    event.target.style.fontWeight = "bold";
 });
 
 document.body.addEventListener('mouseout', function(event) {
-    event.target.style.color = "mediumvioletred";
+    event.target.style.color = "indianred";
 });
