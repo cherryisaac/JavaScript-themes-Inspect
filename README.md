@@ -1,4 +1,4 @@
 # JavaScript-themes-Inspect
-Change your themes for YouTube using JavaScript
+Change your themes for websites using JavaScript and Inspect element
 
-More info coming soon...
+More details coming soon...
