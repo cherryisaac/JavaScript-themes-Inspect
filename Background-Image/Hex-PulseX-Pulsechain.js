@@ -25,6 +25,16 @@ document.body.addEventListener('mouseover', function(event) {
     event.target.style.fontWeight = "bold";
 });
 
+
+function changeHighlightColor(color) {
+    const style = document.createElement('style');
+    style.textContent = `::selection { background-color: ${color}; }`;
+    document.head.appendChild(style);
+}
+
+// Call the function with the desired highlight color
+changeHighlightColor('navy'); // R
+
 document.body.addEventListener('mouseout', function(event) {
     event.target.style.color = "indianred";
 });
