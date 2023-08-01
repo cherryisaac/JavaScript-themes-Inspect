@@ -25,6 +25,9 @@ document.body.addEventListener('mouseover', function(event) {
     event.target.style.fontWeight = "bold";
 });
 
+document.body.addEventListener('mouseout', function(event) {
+    event.target.style.color = "indianred";
+});
 
 function changeHighlightColor(color) {
     const style = document.createElement('style');
@@ -33,8 +36,4 @@ function changeHighlightColor(color) {
 }
 
 // Call the function with the desired highlight color
-changeHighlightColor('navy'); // R
-
-document.body.addEventListener('mouseout', function(event) {
-    event.target.style.color = "indianred";
-});
+changeHighlightColor('darkslategrey'); // R
