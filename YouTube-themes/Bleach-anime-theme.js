@@ -33,6 +33,12 @@ for (var i = 0; i < d.length; i++) {
     d[i].style.background = "red";
 }
 
+// OPTIONAL: Hover play progress bar forward
+var c = document.body.getElementsByClassName("ytp-hover-progress ytp-hover-progress-light");
+for (var i = 0; i < c.length; i++) {
+    c[i].style.background = "blue";
+}
+
 
 document.body.addEventListener('mouseover', function(event) {
     event.target.style.color = "orange";
