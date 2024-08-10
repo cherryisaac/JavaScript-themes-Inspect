@@ -16,6 +16,32 @@ document.documentElement.style.backgroundSize = "cover";
 document.documentElement.style.backgroundPosition = "center"; 
 
 
+// Video bar container
+var p = document.body.getElementsByClassName("ytp-progress-bar-container");
+for (var i = 0; i < p.length; i++) {
+      p[i].style.background = "silver"; 
+}
+
+// Current progress video trail
+var g = document.body.getElementsByClassName("ytp-play-progress");
+for (var i = 0; i < g.length; i++) {
+    g[i].style.background = "yellow";
+}
+
+// Progress indicator point 
+var d = document.body.getElementsByClassName("ytp-scrubber-button ytp-swatch-background-color");
+for (var i = 0; i < d.length; i++) {
+    d[i].style.background = "red";
+}
+
+// OPTIONAL: Hover play progress bar forward
+var c = document.body.getElementsByClassName("ytp-hover-progress ytp-hover-progress-light");
+for (var i = 0; i < c.length; i++) {
+    c[i].style.background = "green";
+}
+
+
+
 document.body.addEventListener('mouseover', function(event) {
     event.target.style.color = "orange";
 });
